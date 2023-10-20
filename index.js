@@ -87,6 +87,10 @@ io.on("connection", (socket) => {
         io.to(data.room).emit("onMessageImage", data)
     }))
 
+    socket.on("Audiorecord", (data => {
+        io.to(data.room).emit("onMessageAudio", data)
+    }))
+
     socket.on("disconnect", () => {
 
         username_lst = username_lst.filter(user => user.id !== socket.id)
