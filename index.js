@@ -41,6 +41,26 @@ const roomList = [
         maxUser: 10,
         userList: []
     },
+    {
+        roomName: "ห้องดับจิต",
+        maxUser: 10,
+        userList: []
+    },
+    {
+        roomName: "ห้องเช่าราคาถูก",
+        maxUser: 10,
+        userList: []
+    },
+    {
+        roomName: "ห้องสอบ",
+        maxUser: 10,
+        userList: []
+    },
+    {
+        roomName: "ห้องปกครอง",
+        maxUser: 10,
+        userList: []
+    },
 ];
 
 let userOnline = 0
