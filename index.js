@@ -61,6 +61,11 @@ const roomList = [
         maxUser: 10,
         userList: []
     },
+    {
+        roomName: "ห้อง Scrum",
+        maxUser: 10,
+        userList: []
+    },
 ];
 
 let userOnline = 0
